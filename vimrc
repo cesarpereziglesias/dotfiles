@@ -16,3 +16,6 @@ set encoding=utf-8
 
 " Configure Netrw with tree view
 let g:netrw_liststyle=3
+
+" Show trailing whitespaces
+match ErrorMsg '\s\+$'
